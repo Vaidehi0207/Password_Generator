@@ -79,6 +79,7 @@ useEffect(() => {
       value = {length}
       className='cursr-pointer'
       //apne length ko change kr skte h isliye onChange
+      //this is not the same
       onChange={(e) => {setLength(e.target.value)}}
       />
       <label>Length : {length}</label>
