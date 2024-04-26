@@ -91,6 +91,7 @@ useEffect(() => {
         onChange={() => {
           //previous value jo bhi h usko reverse kr do
           //true aur false flip hota rahega
+          //means this is 
           setNumberAllowed((prev) => !prev);
         }}
         />
@@ -105,7 +106,7 @@ useEffect(() => {
         }}
         />
         <label htmlFor="characterInput">Characters</label>
-
+        
       </div>
     </div>
     </div>
